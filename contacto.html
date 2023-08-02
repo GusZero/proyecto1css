@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="assets/img/hachiko.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/styles/contacto.css">
+    <title>Cheems el Pemmrrito</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Cheems el pemrrito</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisual.html">Galeria</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Contacto</h2>
+
+
+    <div class="container" >
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe aquí" required minlength="3">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Escribe aquí tu E-mail" required>
+            <label for="pais">País:</label>
+            <select name="pais" id="pais">                
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Perú">Perú</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="España">España</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Ecuaador">Ecuaador</option>
+                <option value="mexico">México</option>
+            </select>
+            <label for="comentario">Escribe tus comentarios:</label>
+            <textarea name="comentarios" id="comentarios" placeholder="Escribe aqui tus comentarios"
+                required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+
+    <footer>
+        Cheems S.A. Derechos Reservados &copy; 2023
+    </footer>
+
+</body>
+
+</html>

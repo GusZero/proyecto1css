@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+}
+
+th{
+    border: 1px solid grey;
+    background-color: bisque;
+    padding: 10px;
+}
+
+td{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+h2{
+    margin: 0;
+    padding: 20px;
+}

@@ -1,0 +1,38 @@
+h2{
+    margin: 0;
+    padding: 20px;
+}
+
+.delado{
+    float: left;
+    width: auto;
+}
+
+.centrado{
+display: flex;
+justify-content:center ;
+
+}
+
+.galeria{
+    margin: 5px;
+    border: 1px solid bisque;
+    float: left;
+    width: 33vw;
+}
+
+.descripcion{
+    padding: 15px;
+    text-align: center;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+.centrado1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
